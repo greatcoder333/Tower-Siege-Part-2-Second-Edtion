@@ -14,6 +14,10 @@ class SlingShot{
     fly(){
         this.sling.bodyA = null;
     }
+    
+    atttach(polygon){
+   this.sling.bodyA = polygon
+    }
 
     display(){
 
